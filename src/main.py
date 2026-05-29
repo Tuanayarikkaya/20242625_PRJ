@@ -11,7 +11,7 @@ def sayi_al(mesaj):
                 continue
             return sayi
         except ValueError:
-            print("Gecersiz giris. Lutfen sayi giriniz.")
+            print("Hatali giris yapildi. Lutfen sayisal bir deger giriniz.")
 
 
 def menu_yazdir():
