@@ -27,7 +27,7 @@ def menu_yazdir():
 
 def kitaplari_yazdir(kitaplar):
     if not kitaplar:
-        print("Kayitli kitap yok.")
+        print("Kutuphane sisteminde kayitli kitap bulunamadi.")
         return
     for kitap in kitaplar:
         durum = "Oduncte" if kitap[3] == 1 else "Kutuphanede"
