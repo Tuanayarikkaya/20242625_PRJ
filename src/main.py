@@ -7,7 +7,7 @@ def sayi_al(mesaj):
         try:
             sayi = int(input(mesaj))
             if sayi <= 0:
-                print("Lutfen 0'dan buyuk bir sayi giriniz.")
+                print("Gecersiz sayi. Lutfen 0'dan buyuk bir deger giriniz.")
                 continue
             return sayi
         except ValueError:
