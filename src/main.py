@@ -36,7 +36,7 @@ def kitaplari_yazdir(kitaplar):
 
 def uyeleri_yazdir(uyeler):
     if not uyeler:
-        print("Kayitli uye yok.")
+        print("Sistemde kayitli uye bulunamadi.")
         return
     for uye in uyeler:
         print(f"No: {uye[0]} | Ad Soyad: {uye[1]}")
