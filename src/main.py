@@ -16,7 +16,7 @@ def sayi_al(mesaj):
 
 def menu_yazdir():
     print("\n--- KUTUPHANE SISTEMI ---")
-    print("1- Kitap ekle")
+    print("1- Yeni kitap ekle"))
     print("2- Uye ekle")
     print("3- Kitaplari listele")
     print("4- Uyeleri listele")
