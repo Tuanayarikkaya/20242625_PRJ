@@ -22,7 +22,7 @@ def menu_yazdir():
     print("4- Uyeleri listele")
     print("5- Kitap odunc ver")
     print("6- Kitap iade al")
-    print("0- Cikis")
+    print("0- Programdan cik")
 
 
 def kitaplari_yazdir(kitaplar):
