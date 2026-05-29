@@ -18,7 +18,7 @@ def menu_yazdir():
     print("\n--- KUTUPHANE SISTEMI ---")
     print("1- Yeni kitap ekle")
     print("2- Yeni uye ekle")
-    print("3- Kitaplari listele")
+    print("3- Tum kitaplari listele")
     print("4- Uyeleri listele")
     print("5- Kitap odunc ver")
     print("6- Kitap iade al")
