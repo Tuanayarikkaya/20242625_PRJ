@@ -48,7 +48,7 @@ def main():
 
     while True:
         menu_yazdir()
-        secim = input("Seciminiz: ")
+        secim = input(print("Lutfen bir secim yapiniz: "))
 
         try:
             if secim == "1":
