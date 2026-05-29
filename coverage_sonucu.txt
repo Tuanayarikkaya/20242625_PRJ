@@ -1,0 +1,29 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-9.0.2, pluggy-1.6.0
+rootdir: /mnt/data/20242625_PRJ
+plugins: cov-7.0.0, ddtrace-4.4.0, Faker-40.1.2, asyncio-1.3.0, json-report-1.5.0, anyio-4.13.0, metadata-3.1.1
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 21 items
+
+tests/birim/test_kitap.py .....                                          [ 23%]
+tests/birim/test_uye.py ...                                              [ 38%]
+tests/birim/test_veritabani.py ..                                        [ 47%]
+tests/entegrasyon/test_ikili_moduller.py ...                             [ 61%]
+tests/entegrasyon/test_uc_ve_uzeri_moduller.py ..                        [ 71%]
+tests/sistem/test_main_ekran.py ....                                     [ 90%]
+tests/sistem/test_senaryolar.py ..                                       [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.5-final-0 ________________
+
+Name                Stmts   Miss  Cover
+---------------------------------------
+src/kitap.py           23      2    91%
+src/kutuphane.py       44      5    89%
+src/main.py            71      5    93%
+src/uye.py              9      0   100%
+src/varlik.py           7      0   100%
+src/veritabani.py      41      6    85%
+---------------------------------------
+TOTAL                 195     18    91%
+============================== 21 passed in 0.42s ==============================
